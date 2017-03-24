@@ -1,4 +1,4 @@
-GENERAL DESCRIPTION
+# Movebank Map Demo
 
 Movebank offers sample code that can be used to pull data from Movebank and display it on external websites using Google Maps. Here is an example of a map of data on Movebank owned by Dr Rob Bierregaard that he shows on his website: www.ospreytrax.com/2013Juveniles.html. His code is very similar to the code we provide.
 
@@ -12,7 +12,7 @@ Option 1. HTML: Here the entire code can be posted on an html page. For this to 
 Option 2: PHP: The code is very similar to the first option, but includes PHP code that can be stored on your local server, which lets you access the data with your Movebank credentials securely and display them on the page. With this option you can show a map of data that are not public in Movebank.
 
 -----------------------------------------------------------
-DETAILS ABOUT THE SAMPLE FILES
+## Details about the sample files
 
 A few notes about using the sample code:
 

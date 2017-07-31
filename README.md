@@ -5,9 +5,9 @@ Movebank offers sample code that can be used to pull data from Movebank and disp
 To work, your website must allow you to use JavaScript code. Some website providers, such as wordpress.com, do not allow this.
 
 There are two options for the code:
-Option 1. HTML: Here the entire code can be posted on an html page. For this to work, the permissions of your study in Movebank must be set so that they can be downloaded by the public, and the "Prompt users to accept license terms" option must be unchecked. This is because when someone opens your website to view the map, Movebank has to send the data to your website, which is essentially the same as the website downloading your data. Including a username and password in the code to access protected data would pass the username and password over the internet with no security.
+- Option 1. HTML: Here the entire code can be posted on an html page. For this to work, the permissions of your study in Movebank must be set so that they can be downloaded by the public, and the "Prompt users to accept license terms" option must be unchecked. This is because when someone opens your website to view the map, Movebank has to send the data to your website, which is essentially the same as the website downloading your data. Including a username and password in the code to access protected data would pass the username and password over the internet with no security.
 
-Option 2: PHP: The code is very similar to the first option, but includes PHP code that can be stored on your local server, which lets you access the data with your Movebank credentials securely and display them on the page. With this option you can show a map of data that are not public in Movebank.
+- Option 2: PHP: The code is very similar to the first option, but includes PHP code that can be stored on your local server, which lets you access the data with your Movebank credentials securely and display them on the page. With this option you can show a map of data that are not public in Movebank.
 
 -----------------------------------------------------------
 ## Details about the sample files

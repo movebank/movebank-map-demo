@@ -1,10 +1,8 @@
 # Movebank Map Demo
 
-Movebank offers sample code that can be used to pull data from Movebank and display it on external websites using Google Maps. Here is an example of a map of data on Movebank owned by Dr Rob Bierregaard that he shows on his website: www.ospreytrax.com/2013Juveniles.html. His code is very similar to the code we provide.
+Movebank offers sample code that can be used to pull data from Movebank and display it on external websites using Google Maps. Here are some details about how it works:
 
-Here are some details about how it works:
-
-To work, your website must allow you to use JavaScript code. (Some website providers, such as wordpress.com, do not allow this.)
+To work, your website must allow you to use JavaScript code. Some website providers, such as wordpress.com, do not allow this.
 
 There are two options for the code:
 Option 1. HTML: Here the entire code can be posted on an html page. For this to work, the permissions of your study in Movebank must be set so that they can be downloaded by the public, and the "Prompt users to accept license terms" option must be unchecked. This is because when someone opens your website to view the map, Movebank has to send the data to your website, which is essentially the same as the website downloading your data. Including a username and password in the code to access protected data would pass the username and password over the internet with no security.

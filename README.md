@@ -15,9 +15,9 @@ There are two options for the code:
 A few notes about using the sample code:
 
 * Google now requires an API key to display Google maps without a "for development purposes only" watermark. Read more at the links below about
-- [how to get a Google API key] (https://developers.google.com/maps/documentation/javascript/get-api-key)
-- [Google's current pricing info] (https://cloud.google.com/maps-platform/pricing/)(as of 2018 they waive $200/mo in usage) 
-- [Google's announcement of the change] (https://mapsplatform.googleblog.com/2018/05/introducing-google-maps-platform.html)
+    - [how to get a Google API key](https://developers.google.com/maps/documentation/javascript/get-api-key)
+    - [Google's current pricing info](https://cloud.google.com/maps-platform/pricing/) (as of 2018 they waive $200/mo in usage) 
+    - [Google's announcement of the change](https://mapsplatform.googleblog.com/2018/05/introducing-google-maps-platform.html)
 
 * Every time someone loads your page, your site will request data from Movebank according to your specifications. Changes to your animals or permissions in Movebank can cause these specifications to become out of date. For example, if new animals are added or if an animal’s name is changed in Movebank, you will need to update this code accordingly so your map will continue to load.
 

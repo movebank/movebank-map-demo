@@ -46,7 +46,8 @@ echo "var data = " . $data . ";\n";
         </style>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js" type="text/javascript"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=visualization,geometry"></script>
+        // Google now requires an API key to use Google maps without a "for development purposes only" watermark. Create an API key (see https://developers.google.com/maps/documentation/javascript/get-api-key) and add it to the line below replacing MY-API-KEY with your key.
+        <script src="https://maps.googleapis.com/maps/api/js?key=MY-API-KEY&v=3.exp&sensor=false&libraries=visualization,geometry"></script>
         <script type="text/javascript">
             var data;
 

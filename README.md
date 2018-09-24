@@ -14,6 +14,11 @@ There are two options for the code:
 
 A few notes about using the sample code:
 
+- Google now requires an API key to display Google maps without a "for development purposes only" watermark. Read more at the links below about
+how to get a Google API key: https://developers.google.com/maps/documentation/javascript/get-api-key
+Google's current pricing info (as of 2018 they waive $200/mo in usage): https://cloud.google.com/maps-platform/pricing/
+Google's announcement of the change: https://mapsplatform.googleblog.com/2018/05/introducing-google-maps-platform.html
+
 - Every time someone loads your page, your site will request data from Movebank according to your specifications. Changes to your animals or permissions in Movebank can cause these specifications to become out of date. For example, if new animals are added or if an animal’s name is changed in Movebank, you will need to update this code accordingly so your map will continue to load.
 
 - To set up your map, search the text in the code for !! to find comments for the lines that need to be modified to display your map. 
@@ -25,8 +30,12 @@ PHP version
 
 - Update the username/password (lines 15-16) with the Movebank credentials for a user with permission to download the data from the study. The credentials there now are for a temporary test user.
 
+- Create your Google API key (described above) and add this to line 50.
+
 HTML version
 - Update the study_id (line 7) and individual_local_identifiers (line 8) for the study and animals you want to show in the map.
+
+- Create your Google API key (described above) and add this to line 32.
 
 Also note that
 

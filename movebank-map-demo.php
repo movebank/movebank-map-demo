@@ -5,7 +5,7 @@ $url='https://www.movebank.org/movebank/service/json-auth?study_id=16880941&indi
 
 // !! Modify the URL above to specify the following (replace XXX with your values):
 // study_id=XXX& -- Add the Movebank ID for your study, available in the Study Details.
-// individual_local_identifiers[]=XXX& -- Add the exact Animal IDs for the animals in the study that you want to show on the map; repeat the same text for each animal.
+// individual_local_identifiers=XXX& -- Add the exact Animal IDs for the animals in the study that you want to show on the map; repeat the same text for each animal.
 // max_events_per_individual=XXX& -- Change as you like to show more/fewer locations per individual; note that more locations will slow the time it takes the page to load.
 // Alternatively, you can set the start and end of the period you want to display:
 // timestamp_start=XXX& -- Add this with the Unix timestamp in milliseconds to limit data display to a time range.
